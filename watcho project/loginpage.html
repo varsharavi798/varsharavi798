@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        .maindiv{
+            height: 100vh;
+            width:100%;
+            background-image:url(./colorful-abstract.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            
+
+        }
+           
+        .form{
+            display: flex;
+           flex-direction: column;
+            height: 500px;
+            width: 400px;
+            border: 3px solid black;
+            align-items: center;
+            margin-top:15vh;
+            margin-left: 70vh;
+            background-color: rgba(0, 0, 0, 0.50);
+            box-shadow: inset -5px -5px rgba(0, 0,0, 0.5);
+            border-radius:25px;
+            position: absolute;
+        }
+        .form h1{
+            color: white;
+            font-size: 2rem;
+            border-bottom: 4px solid rgb(245, 225, 225, 0.5);
+            margin: 50px;
+        }
+
+        .boxes{
+            padding: 12px;
+            margin:15px;
+            width:65%;
+            border:2px;
+            border-color: aqua;
+            outline: none;
+            border-radius: 20px;
+            background-color: rgba(56, 51, 51, 0.5);
+            box-shadow: inset -3px 3px rgba(47, 141, 248, 0.411);
+            color: white;
+            font: 1em sans-serif;
+
+        }
+        .checkboxline label{
+            color: white;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            background-color: rgba(56, 51, 51, 0.5);
+            margin-right: 145px;
+        }
+        .checkboxline a{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .loginline{
+width:100px;
+padding: 10px;
+border-radius: 20px 20px 20px 20px;
+outline: springgreen;
+margin: 20px;
+text-align: center;
+font-size: 15px;
+font-style: italic;
+ }
+ .loginline:hover{
+     background-color: royalblue;
+     color: white;
+
+ }
+
+    
+
+    
+    </style>
+
+<div class="subdiv"> 
+    <form class="form">
+        <img src="./logo1.png" alt="logo" height="70px"; width="70px">
+        <h1> LOG IN</h1>
+
+ <input type="text" class="boxes" placeholder="Enter Username"  >
+
+ <input type="password" class="boxes" placeholder="Enter Password">
+
+  <div class="checkboxline"> <label> <input type="checkbox"> Remember Me</label> 
+
+  <a class="aa" style="color:white; font-style: oblique; margin-left: 200px;" href="#"> Forget Password..?</a> 
+
+</div> 
+    
+<input class="loginline" input type="button"  class="boxes" style="font-style:bold; cursor: pointer;" font-size:5px; value="SIGN IN">
+
+<h4 style="color: white; text-decoration-style: none;"> Don't have an account..? <a  class="a" style="color: red"; href="#"> Register</a></h4>
+</form>
+
+
+</form>
+    
+</div>
+</div>
+
+
+    <div class="maindiv"> </div>
+        
+
+
+</body>
+</html>
+
